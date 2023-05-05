@@ -1,0 +1,138 @@
+body{
+      font-family: 'Poppins', sans-serif;
+      margin: auto;
+}
+
+/* main logo */
+#hulu_logo{
+      width: 100px;
+}
+
+nav {
+      align-items: center;
+      background-image: linear-gradient(black, transparent);
+      display: flex;
+      height: 70px;
+      justify-content: space-between;
+      padding: 20px 60px;
+}   
+
+#login{
+      border: none;
+      background-color: rgba(0, 0, 0, 0);
+      color: #a8afbd;
+      cursor: pointer;
+      font-weight: bold;
+      padding: 10px 20px;
+}
+#login:hover{
+      background-color: #383838;
+      border-radius: 5px;
+      color: white;
+      transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+#hero{
+      background-image: url("./img/collage_dark_overlay.png");
+      background-size: cover;
+}
+
+/* the duo and trio styles */
+.green_text{
+      color: #1ce783;
+      font-size: 14px;
+      font-weight: 500;
+      margin: 10px 0;
+}
+
+.hero_content{
+      text-align: center;
+}
+
+.get_them_both{
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+      margin: 15px 0 25px;
+      text-shadow: 0px 0px 7px black;
+}
+
+.get_them_both_button{
+      background-color: #1ce783;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: 600;
+      height: 50px;
+      transition: background-color 0.3s ease-in-out;
+      width: 700px;
+}
+.get_them_both_button:hover{
+      background-color: rgba(28, 231, 131, 0.5);
+}
+
+.white_link{
+      color: white;
+}
+
+.terms_1{
+      margin: 16px 0 22px 0;
+}
+
+.signUp_Hulu{
+      font-size: 19px;
+}
+
+.dis_hulu_espn{
+      width: 350px;
+      object-fit: contain;
+}
+
+.hero_bottom_banner{
+      background-color: rgba(24, 24, 24, 0.5);
+      display: flex;
+      margin: 50px 0 0;
+      padding: 10px 40px 0;
+}
+
+.banner_img_and_text{
+      display: flex;
+}
+
+.l_10_margin{
+      margin-left: 25px;
+}
+
+.get_with_ads{
+      color: white;
+      font-size: 25px;
+      margin: 10px 0;
+      max-width: 500px;
+}
+
+.get_all_three{
+      margin: 40px 0 0 200px;
+      text-align: center;
+}
+
+.terms{
+      color: rgb(190, 190, 190);
+      font-size: 14px;
+}
+
+.btn_get{
+      background-color: rgba(0, 0, 0, 0);
+      border: 2px solid white;
+      border-radius: 5px;
+      color: white;
+      font-weight: bold;
+      height: 45px;
+      width: 180px;
+}
+.btn_get:hover{
+      background-color: #383838;
+      border: 1px solid #1ce783;
+      color: #1ce783;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in, color 0.3s ease-in, border 0.3s ease-in      ;
+}
