@@ -45,6 +45,10 @@ nav {
       margin: 10px 0;
 }
 
+.rem_margin{
+      margin: 0;
+}
+
 .hero_content{
       text-align: center;
 }
@@ -134,5 +138,124 @@ nav {
       border: 1px solid #1ce783;
       color: #1ce783;
       cursor: pointer;
-      transition: background-color 0.3s ease-in, color 0.3s ease-in, border 0.3s ease-in      ;
+      transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border 0.3s ease-in-out;
 }
+
+.movie-row {
+      display: flex;
+      justify-content: space-between;
+      margin: 50px 0;
+    }
+    
+    .movie {
+      position: relative;
+      width: 296px;
+      height: 451px;
+      overflow: hidden;
+      margin-right: 20px;
+    }
+    
+    .movie img {
+      width: 100%;
+      height: 100%;
+      transition: filter 0.5s ease;
+    }
+    
+    .movie-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      transition: opacity 0.5s ease;
+    }
+    
+    .movie:hover img {
+      filter: brightness(50%);
+    }
+    
+    .movie:hover .movie-overlay {
+      opacity: 1;
+    }
+    
+    .movie-title {
+      color: #fff;
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .movie-arrow {
+      color: #fff;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    
+.included{
+      background-color: #0b0c0f;
+      color: white;
+      text-align: center;
+      padding: 50px;
+}
+
+.included_plans{
+      margin: 100px 0 0;
+}
+
+.watch{
+      max-width: 700px;
+      margin: auto;
+}
+
+.big_text{
+      font-size: 50px;
+      margin: 15px 0;
+}
+
+.tiny_text{
+      font-size: 10px;
+      max-width: 700px;
+      margin: 15px auto;
+      color: #8b8b8b;
+}
+
+.top_m_50{
+      margin-top: 250px;
+}
+
+.arrow-container {
+      width: 50px;
+      height: 50px;
+      display: flex;
+      /* justify-content: center;
+      align-items: center; */
+      text-align: center;
+      margin: 30px auto;
+    }
+    
+    .arrow {
+      /* width: 0;
+      height: 0;
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      border-top: 15px solid #c4c4c4; */
+      animation: bounce 2s infinite;
+    }
+    
+    @keyframes bounce {
+      0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(10px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
