@@ -1,10 +1,14 @@
-body{
+html {
+      scroll-behavior: smooth;
+}
+
+body {
       font-family: 'Poppins', sans-serif;
       margin: auto;
 }
 
 /* main logo */
-#hulu_logo{
+#hulu_logo {
       width: 100px;
 }
 
@@ -15,9 +19,9 @@ nav {
       height: 70px;
       justify-content: space-between;
       padding: 20px 60px;
-}   
+}
 
-#login{
+#login {
       border: none;
       background-color: rgba(0, 0, 0, 0);
       color: #a8afbd;
@@ -25,35 +29,36 @@ nav {
       font-weight: bold;
       padding: 10px 20px;
 }
-#login:hover{
+
+#login:hover {
       background-color: #383838;
       border-radius: 5px;
       color: white;
       transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-#hero{
+#hero {
       background-image: url("./img/collage_dark_overlay.png");
       background-size: cover;
 }
 
 /* the duo and trio styles */
-.green_text{
+.green_text {
       color: #1ce783;
       font-size: 14px;
       font-weight: 500;
       margin: 10px 0;
 }
 
-.rem_margin{
+.rem_margin {
       margin: 0;
 }
 
-.hero_content{
+.hero_content {
       text-align: center;
 }
 
-.get_them_both{
+.get_them_both {
       color: white;
       font-size: 18px;
       font-weight: 500;
@@ -61,7 +66,7 @@ nav {
       text-shadow: 0px 0px 7px black;
 }
 
-.get_them_both_button{
+.get_them_both_button {
       background-color: #1ce783;
       border: none;
       border-radius: 4px;
@@ -71,60 +76,61 @@ nav {
       transition: background-color 0.3s ease-in-out;
       width: 700px;
 }
-.get_them_both_button:hover{
+
+.get_them_both_button:hover {
       background-color: rgba(28, 231, 131, 0.5);
 }
 
-.white_link{
+.white_link {
       color: white;
 }
 
-.terms_1{
+.terms_1 {
       margin: 16px 0 22px 0;
 }
 
-.signUp_Hulu{
+.signUp_Hulu {
       font-size: 19px;
 }
 
-.dis_hulu_espn{
+.dis_hulu_espn {
       width: 350px;
       object-fit: contain;
 }
 
-.hero_bottom_banner{
+.hero_bottom_banner {
       background-color: rgba(24, 24, 24, 0.5);
       display: flex;
       margin: 50px 0 0;
       padding: 10px 40px 0;
 }
 
-.banner_img_and_text{
+.banner_img_and_text {
       display: flex;
 }
 
-.l_10_margin{
+.l_10_margin {
       margin-left: 25px;
 }
 
-.get_with_ads{
+.get_with_ads {
       color: white;
       font-size: 25px;
       margin: 10px 0;
       max-width: 500px;
 }
 
-.get_all_three{
+.get_all_three {
       margin: 40px 0 0 200px;
       text-align: center;
 }
 
-.terms{
+.terms {
       color: rgb(190, 190, 190);
       font-size: 14px;
 }
 
-.btn_get{
+.btn_get {
       background-color: rgba(0, 0, 0, 0);
       border: 2px solid white;
       border-radius: 5px;
@@ -133,7 +139,8 @@ nav {
       height: 45px;
       width: 180px;
 }
-.btn_get:hover{
+
+.btn_get:hover {
       background-color: #383838;
       border: 1px solid #1ce783;
       color: #1ce783;
@@ -145,23 +152,23 @@ nav {
       display: flex;
       justify-content: space-between;
       margin: 50px 0;
-    }
-    
-    .movie {
+}
+
+.movie {
       position: relative;
       width: 296px;
       height: 451px;
       overflow: hidden;
       margin-right: 20px;
-    }
-    
-    .movie img {
+}
+
+.movie img {
       width: 100%;
       height: 100%;
       transition: filter 0.5s ease;
-    }
-    
-    .movie-overlay {
+}
+
+.movie-overlay {
       position: absolute;
       top: 0;
       left: 0;
@@ -174,59 +181,73 @@ nav {
       background-color: rgba(0, 0, 0, 0.5);
       opacity: 0;
       transition: opacity 0.5s ease;
-    }
-    
-    .movie:hover img {
+}
+
+.movie:hover img {
       filter: brightness(50%);
-    }
-    
-    .movie:hover .movie-overlay {
+}
+
+.movie:hover .movie-overlay {
       opacity: 1;
-    }
-    
-    .movie-title {
+}
+
+.movie-title {
       color: #fff;
       font-size: 1.5rem;
       font-weight: bold;
       margin-bottom: 10px;
-    }
-    
-    .movie-arrow {
+}
+
+.movie-arrow {
       color: #fff;
       font-size: 2rem;
       font-weight: bold;
-    }
-    
-.included{
+}
+
+.included {
       background-color: #0b0c0f;
       color: white;
       text-align: center;
       padding: 50px;
 }
 
-.included_plans{
+.live {
+      background-color: #0b0c0f;
+      color: white;
+      text-align: center;
+      padding: 50px;
+}
+
+.included_plans {
       margin: 100px 0 0;
 }
 
-.watch{
+.watch {
       max-width: 700px;
       margin: auto;
 }
 
-.big_text{
+.big_text {
       font-size: 50px;
       margin: 15px 0;
 }
 
-.tiny_text{
+.tiny_text {
       font-size: 10px;
       max-width: 700px;
       margin: 15px auto;
       color: #8b8b8b;
 }
 
-.top_m_50{
-      margin-top: 250px;
+.tiny_text2 {
+      font-size: 10px;
+      max-width: 700px;
+      margin: 15px auto;
+      color: #e9e9e9;
+}
+
+.top_m_50 {
+      margin-top: 80px;
 }
 
 .arrow-container {
@@ -237,25 +258,48 @@ nav {
       align-items: center; */
       text-align: center;
       margin: 30px auto;
-    }
-    
-    .arrow {
-      /* width: 0;
-      height: 0;
-      border-left: 15px solid transparent;
-      border-right: 15px solid transparent;
-      border-top: 15px solid #c4c4c4; */
+}
+
+.arrow {
       animation: bounce 2s infinite;
-    }
-    
-    @keyframes bounce {
+}
+
+@keyframes bounce {
       0% {
-        transform: translateY(0);
+            transform: translateY(0);
       }
+
       50% {
-        transform: translateY(10px);
+            transform: translateY(10px);
       }
+
       100% {
-        transform: translateY(0);
+            transform: translateY(0);
       }
-    }
+}
+
+.live_sports {
+      display: flex;
+      padding: 200px 0;
+      background-image: url("./img/basketball.jpg");
+      background-size: cover;
+      /* filter: blur(5px); */
+}
+
+.the_acc_tv {
+      width: 500px;
+}
+
+.live_texts {
+      padding: 50px 180px 50px 50px;
+      color: white;
+      margin-left: 150px;
+}
+
+.row_img {
+      display: inline;
+}
+
+.circle_img {
+      width: 70px;
+}
