@@ -303,3 +303,89 @@ nav {
 .circle_img {
       width: 70px;
 }
+
+.select_plan{
+      background-color: #0b0c0f;
+      margin: 0;
+      padding: 80px 150px 50px;
+      color: white;
+}
+
+.select_plan_content{
+      text-align: center;
+}
+
+.select{
+      padding: 20px;
+      font-size: 50px;
+}
+
+#switch{
+      font-weight: bold;
+}
+
+.plans{
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      padding: 70px 0;
+      align-items: center;
+}
+
+.red_img{
+      width: 120px;
+      padding: 0 90px;
+}
+
+.green_btn{
+      font-size: 10px;
+      padding: 10px 25px;
+      border-radius: 100px;
+      border: none;
+      background-color: #1ce783;
+}
+.green_btn2{
+      font-size: 10px;
+      padding: 10px 25px;
+      border-radius: 100px;
+      border: none;
+      background-color: #0b0c0f;
+      
+}
+
+.w_ads{
+      font-weight: bold;
+}
+
+.free1{
+      color: grey;
+      font-size: 14px;
+}
+
+.white_big{
+      padding: 15px 90px;
+      border: none;
+      border-radius: 5px;
+      background-color: white;
+      color: black;
+      font-size: 15px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: opacity 0.3s ease-in-out;
+}
+.white_big:hover{
+      opacity: 70%;
+}
+
+.w_600{
+      max-width: 600px;
+}
+
+.credit{
+      text-align: center;
+      margin: 90px 0 20px;
+}
+
+.name{
+      color: rgb(48, 48, 204);
+}
