@@ -103,6 +103,7 @@ nav {
       display: flex;
       margin: 50px 0 0;
       padding: 10px 40px 0;
+      justify-content: space-around;
 }
 
 .banner_img_and_text {
@@ -242,7 +243,7 @@ nav {
 .tiny_text2 {
       font-size: 10px;
       max-width: 700px;
-      margin: 15px auto;
+      /* margin: 15px auto; */
       color: #e9e9e9;
 }
 
@@ -387,5 +388,35 @@ nav {
 }
 
 .name{
-      color: rgb(48, 48, 204);
+      color: #1ce783;
+}
+
+/* Styles for tablets (portrait orientation) */
+@media (min-width: 768px) and (max-width: 1207px) {
+  body {
+    font-size: 20px;
+    color: #666;
+    display: none;
+  }
+}
+
+/* Styles for mobile devices (portrait orientation) */
+@media (max-width: 767px) {
+  body {
+    font-size: 18px;
+    color: #999;
+    display: none;
+  }
+}
+
+/* Styles for mobile devices (landscape orientation) */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  body {
+    font-size: 16px;
+    color: #ccc;
+    display: none;
+  }
+  #hulu_logo {
+      width: 50px;
+}
 }
